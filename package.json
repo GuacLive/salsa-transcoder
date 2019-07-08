@@ -1,0 +1,16 @@
+{
+  "name": "salsa-transcoder",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GuacLive/salsa-transcoder.git",
+  "author": "datagutt <datagutt@lekanger.no>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "ioredis": "^4.11.1"
+  },
+  "scripts": {
+    "start": "node -r esm index.js"
+  }
+}
